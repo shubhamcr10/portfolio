@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    proxy: {
+      "/portfolio": "http://localhost:8080",
+    },
   },
   plugins: [
     react(),
