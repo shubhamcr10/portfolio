@@ -10,12 +10,12 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const menuItems = [
-    { name: "About", href: "/portfolio/#about" },
-    { name: "Experience", href: "/portfolio/#experience" },
-    { name: "Projects", href: "/portfolio/#projects" },
-    { name: "Education", href: "/portfolio/#education" },
-    { name: "Skills", href: "/portfolio/#skills" },
-    { name: "Contact", href: "/portfolio/#contact" },
+    { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+    { name: "Education", href: "#education" },
+    { name: "Skills", href: "#skills" },
+    { name: "Contact", href: "#contact" },
   ];
 
   useEffect(() => {
