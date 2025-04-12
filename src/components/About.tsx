@@ -34,7 +34,7 @@ const About = () => {
               Hi, I’m Shubham — a software engineer who thrives on building robust, scalable, and impactful systems that power real-world functionality. From low-level optimization to full-scale architecture, I enjoy working at the intersection of performance, precision, and purpose.
             </p>
             <p>
-              With experience spanning fintech and embedded systems, I’ve contributed to everything from real-time payment infrastructure at TSYS (Global Payments) to precision positioning systems and automotive automation at Jangoo Technologies. My toolkit includes C++, Pro*C, SQL, and other tools that help me push the limits of software to solve complex problems efficiently.
+              With experience spanning fintech and embedded systems, I’ve contributed to everything from real-time payment infrastructure at TSYS (Global Payments) to precision positioning systems and automotive automation at Jangoo Technologies. My toolkit includes C++, C, Pro*C, SQL, and other tools that help me push the limits of software to solve complex problems efficiently.
             </p>
             <p>
               I have a strong grounding in system design, secure development practices, and agile collaboration — whether it’s deploying payment features for Mastercard and RuPay, or creating a dynamic profiling tool from scratch using Qt and C++. I’m also a curious learner, constantly evolving with industry shifts and exploring new tools that improve my craft.

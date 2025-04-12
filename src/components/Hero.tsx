@@ -30,16 +30,30 @@ const Hero = () => {
               I develop cutting-edge technology solutions for complex problems. Currently working at TSYS in Global Payments, focusing on secure payment processing solutions.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
+            <a href="mailto:shubhamcr10@gmail.com">
               <Button className="bg-blue-600 hover:bg-blue-700">
                 <Mail className="mr-2 h-4 w-4" /> Contact Me
               </Button>
+            </a>
+            <a
+              href="https://github.com/shubhamcr10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
                 <Github className="mr-2 h-4 w-4" /> GitHub
               </Button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shubhamcr10/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
               </Button>
-            </div>
+            </a>
+          </div>
           </div>
           
           <div className={`w-full md:w-1/3 flex justify-center transition-all duration-700 delay-300 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
