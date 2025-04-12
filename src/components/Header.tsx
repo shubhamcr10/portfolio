@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-// import { Link } from "react-router-dom";  // Import Link
+import resumePDF from "@/assets/resume.pdf";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +71,13 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-blue-600 hover:bg-blue-700">Resume</Button>
+            <a
+              href={resumePDF}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-blue-600 hover:bg-blue-700">Resume</Button>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -101,7 +107,14 @@ const Header = () => {
             </a>
           ))}
           <div className="px-3 py-2">
+          <a
+            href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
             <Button className="w-full bg-blue-600 hover:bg-blue-700">Resume</Button>
+          </a>
           </div>
         </div>
       </div>
