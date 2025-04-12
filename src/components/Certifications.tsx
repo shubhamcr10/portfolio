@@ -8,14 +8,6 @@ import { Award, Calendar, ExternalLink } from "lucide-react";
 const certifications = [
   {
     id: 1,
-    title: "Deep Learning",
-    organization: "NPTEL",
-    date: "Issued Oct 2021",
-    credentialId: "NPTEL21CS76123390455",
-    image: "https://play-lh.googleusercontent.com/mJsEybzMk8ChgxD_JCYbL-9IH4BpJrtgk2XFTFlVE5IO-dOxkuQnuNzS5BN9FYHlvQ"
-  },
-  {
-    id: 2,
     title: "Google Analytics Individual Qualification",
     organization: "Google",
     date: "Issued Oct 2021 - Expired Oct 2022",
@@ -23,7 +15,7 @@ const certifications = [
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png"
   },
   {
-    id: 3,
+    id: 2,
     title: "Accenture Nordic Developer Program",
     organization: "Accenture",
     date: "Issued Sep 2021",
@@ -31,7 +23,7 @@ const certifications = [
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/2560px-Accenture.svg.png"
   },
   {
-    id: 4,
+    id: 3,
     title: "Foundations: Data, Data, Everywhere",
     organization: "Google",
     date: "Issued Sep 2021",
@@ -39,20 +31,28 @@ const certifications = [
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png"
   },
   {
-    id: 5,
+    id: 4,
     title: "Goldman Sachs Engineering Virtual Program",
     organization: "Goldman Sachs",
     date: "Issued Sep 2021",
     credentialId: "BbahFSgm6WX56GMj",
-    image: "https://logos-world.net/wp-content/uploads/2021/02/Goldman-Sachs-Logo.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-ABHSvYmpG3VnIB1vneT2Bih4usXYMRN5ElRwERjBwCGeZeyWZfpl6HSslZHFZfnMZk&usqp=CAU"
   },
   {
-    id: 6,
+    id: 5,
     title: "DevNet Associate",
     organization: "Cisco",
     date: "Issued Aug 2021",
     credentialId: null,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+  },
+  {
+    id: 6,
+    title: "Deep Learning",
+    organization: "NPTEL",
+    date: "Issued Oct 2021",
+    credentialId: "NPTEL21CS76123390455",
+    image: "https://sangamuniversity.ac.in/wp-content/uploads/2023/03/nptel.jpg"
   }
 ];
 
@@ -87,11 +87,6 @@ const CertificationCard = ({ certification, isVisible }) => {
           </p>
         )}
         
-        <div className="mt-3">
-          <Button size="sm" variant="outline" className="text-xs">
-            <Award className="h-3 w-3 mr-1" /> Show credential
-          </Button>
-        </div>
       </div>
     </div>
   );
