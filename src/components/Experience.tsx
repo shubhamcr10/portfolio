@@ -40,7 +40,6 @@ const experiences = [
       "Independently developed a Dynamic Profiling application in Qt using C++, which utilizes Qt Signal Handling for controlling the profiling dynamically from external sources.",
       "Collaborated with cross-functional teams to optimize software development, introducing best practices like code reviews and standards."
     ],
-    skills: ["Continuous Integration and Continuous Delivery (CI/CD)", "Conan"]
   },
   {
     id: 3,
