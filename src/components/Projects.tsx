@@ -8,21 +8,20 @@ import { Github, ExternalLink, Calendar } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "PRIME® – Payment Processing Platform (TSYS)",
+    date: "May 2024 – Present",
+    description: "Contributing to TSYS’s PRIME® platform, a scalable global payment processing solution. Implemented MoneySend for MasterCard and developed Manage Usage for UPI transactions on RuPay cards. Participated in architecture discussions and collaborated in agile teams to deliver secure, high-performance payment features.",
+    skills: ["C++", "Pro*C", "SQL", "Shell Scripting", "Linux", "Payment Systems", "System Design", "Digital Payments", "MasterCard", "RuPay"],
+    image: "https://www.tsysprime.com/wp-content/uploads/2020/08/logo.svg"
+  },
+  {
+    id: 2,
     title: "Combat Display System",
     date: "Jan 2024 - July 2024",
     description: "The Combat Display System is a project designed as a clone of a navy display system. It provides a graphical interface for visualizing the movements of tracks captured by radar and sonar sensors, with data sent by simulators.",
     skills: ["C++", "Qt Signal Handling", "Qt QMake", "C (Programming Language)"],
     github: "https://github.com/shubhamcr10/Combat-Display-System",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-  },
-  {
-    id: 2,
-    title: "Course Simulator",
-    date: "Jan 2024 - Jan 2024",
-    description: "The Course Simulator is an example program that publishes simulated data related to course, speed, and depth over Mikro MKT-DDS.",
-    skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
-    github: "https://github.com/shubhamcr10/Course-Simulator",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   },
   {
     id: 3,
@@ -35,15 +34,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Track Simulator",
-    date: "Jan 2024 - Jan 2024",
-    description: "The Track Simulator is a program designed to simulate the behavior of tracks in a naval-like combat display system. It works hand-in-hand with the Combat Display System application over Mikro MKT-DDS.",
-    skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
-    github: "https://github.com/shubhamcr10/Track-Simulator",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-  },
-  {
-    id: 5,
     title: "Trailer Hitch Assist",
     date: "Jan 2023 - Jan 2024",
     description: "Developing an Advanced Driver Assistance System (ADAS) that identifies the hitchball and enables automatic vehicle connection, showcasing expertise in computer vision and sensor technology.",
@@ -51,12 +41,22 @@ const projects = [
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   },
   {
+    id: 5,
+    title: "Course Simulator",
+    date: "Jan 2024 - Jan 2024",
+    description: "The Course Simulator is an example program that publishes simulated data related to course, speed, and depth over Mikro MKT-DDS.",
+    skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
+    github: "https://github.com/shubhamcr10/Course-Simulator",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+  },
+  {
     id: 6,
-    title: "Starling Core",
-    date: "Jan 2023 - Jan 2023",
-    description: "Collaborated on the Starling Core project for Swift Navigation, involving edge device processing of GNSS and sensor data with Skylink corrections, providing precise location to applications.",
-    skills: ["Global Navigation Satellite System (GNSS)", "C++", "C (Programming Language)", "QMake", "NetIpAC", "Docker", "Jenkins", "Linux", "Qt", "Microsoft Visual Studio Code", "Qt QML", "Continuous Integration and Continuous Delivery (CI/CD)"],
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    title: "Track Simulator",
+    date: "Jan 2024 - Jan 2024",
+    description: "The Track Simulator is a program designed to simulate the behavior of tracks in a naval-like combat display system. It works hand-in-hand with the Combat Display System application over Mikro MKT-DDS.",
+    skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
+    github: "https://github.com/shubhamcr10/Track-Simulator",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
   },
 ];
 
