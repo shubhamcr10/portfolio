@@ -10,6 +10,17 @@ const Hero = () => {
     setLoaded(true);
   }, []);
 
+  const handleScrollToSection = (e: React.MouseEvent, href: string) => {
+    e.preventDefault();
+    const section = document.querySelector(href);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-100 overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -69,9 +80,13 @@ const Hero = () => {
       </div>
       
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#about" className="text-blue-600">
-          <ChevronDown size={32} />
-        </a>
+      <a
+        href="#about"
+        className="text-blue-600"
+        onClick={(e) => handleScrollToSection(e, "#about")}
+      >
+        <ChevronDown size={32} />
+      </a>
       </div>
     </div>
   );
