@@ -4,6 +4,10 @@ import { useInView } from "react-intersection-observer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, Calendar } from "lucide-react";
+import CombatDisplayGif from "@/assets/Combat-Display-System.gif";
+import DynamicProfilingGif from "@/assets/Dynamic-Profiling.gif";
+import SimulatorsGif from "@/assets/Simulators.gif";
+import TrailerHitchAssistGif from "@/assets/Trailer-Hitch-Assist.gif";
 
 const projects = [
   {
@@ -12,7 +16,6 @@ const projects = [
     date: "May 2024 – Present",
     description: "Contributing to TSYS’s PRIME® platform, a scalable global payment processing solution. Implemented MoneySend for MasterCard and developed Manage Usage for UPI transactions on RuPay cards. Participated in architecture discussions and collaborated in agile teams to deliver secure, high-performance payment features.",
     skills: ["C++", "Pro*C", "SQL", "Shell Scripting", "Linux", "Payment Systems", "System Design", "Digital Payments", "MasterCard", "RuPay"],
-    github: "https://github.com/shubhamcr10/Combat-Display-System",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyVza2egjTPwj73EMgGTyVtmjHmeXlFB2OQ4cfqMCwhRJqmdt7R1hxAAanXhyPgbhbG4&usqp=CAU"
   },
   {
@@ -22,7 +25,7 @@ const projects = [
     description: "The Combat Display System is a project designed as a clone of a navy display system. It provides a graphical interface for visualizing the movements of tracks captured by radar and sonar sensors, with data sent by simulators.",
     skills: ["C++", "Qt Signal Handling", "Qt QMake", "C (Programming Language)"],
     github: "https://github.com/shubhamcr10/Combat-Display-System",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    image: CombatDisplayGif,
   },
   {
     id: 3,
@@ -31,7 +34,7 @@ const projects = [
     description: "Solely designed and developed a Dynamic Profiling application in Qt using C++. Employed Qt Signal Handling for dynamic profiling control from external sources.",
     skills: ["Qt", "Qt Creator", "C++", "Object Oriented", "Qt Signal Handling", "Clang", "Unix", "Microsoft Visual Studio Code"],
     github: "https://github.com/shubhamcr10/DynamicProfiling",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    image: DynamicProfilingGif,
   },
   {
     id: 4,
@@ -39,7 +42,7 @@ const projects = [
     date: "Jan 2023 - Jan 2024",
     description: "Developing an Advanced Driver Assistance System (ADAS) that identifies the hitchball and enables automatic vehicle connection, showcasing expertise in computer vision and sensor technology.",
     skills: ["C++", "C (Programming Language)", "Computer Vision", "Embedded Board", "Raspberry PI", "STM32", "Motor Control", "Jetson", "Qt", "Linux", "Microsoft Visual Studio Code", "Qt QMake", "cmake"],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    image: TrailerHitchAssistGif,
   },
   {
     id: 5,
@@ -48,7 +51,7 @@ const projects = [
     description: "Developed simulators for a naval-like combat display system using Micro XRCE-DDS. The Course Simulator published simulated course, speed, and depth data, while the Track Simulator emulated track behavior and integrated with the Combat Display System for real-time visualization.",
     skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
     github: "https://github.com/shubhamcr10",
-    image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+    image: SimulatorsGif,
   }
 ];
 
