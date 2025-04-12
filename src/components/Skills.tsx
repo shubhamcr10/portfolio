@@ -16,9 +16,10 @@ const skillCategories = [
     skills: [
       { name: "C++", level: 95 },
       { name: "C", level: 90 },
-      { name: "Python", level: 80 },
-      { name: "JavaScript", level: 75 },
-      { name: "SQL", level: 85 }
+      { name: "Pro*C", level: 98 },
+      { name: "SQL", level: 90 },
+      { name: "PL/SQL", level: 92 },
+      { name: "Shell Scripting", level: 90 }
     ]
   },
   {
@@ -28,8 +29,7 @@ const skillCategories = [
     skills: [
       { name: "Qt", level: 90 },
       { name: "STL", level: 85 },
-      { name: "React", level: 70 },
-      { name: "PyTorch", level: 65 }
+      { name: "QML", level: 80 },
     ]
   },
   {
@@ -38,10 +38,13 @@ const skillCategories = [
     icon: <Terminal />,
     skills: [
       { name: "Git", level: 90 },
+      { name: "GitHub", level: 85 },
       { name: "Docker", level: 75 },
-      { name: "CMake", level: 80 },
-      { name: "QMake", level: 85 },
-      { name: "Visual Studio Code", level: 90 }
+      { name: "CMake", level: 90 },
+      { name: "Conan", level: 88 },
+      { name: "Visual Studio Code", level: 99 },
+      { name: "Jenkins", level: 80 },
+      { name: "Valgrind", level: 90 }
     ]
   },
   {
@@ -49,9 +52,8 @@ const skillCategories = [
     name: "Operating Systems",
     icon: <Server />,
     skills: [
-      { name: "Linux", level: 85 },
-      { name: "Windows", level: 80 },
-      { name: "Unix", level: 75 }
+      { name: "Linux", level: 100 },
+      { name: "Windows", level: 90 }
     ]
   },
   {
@@ -59,10 +61,10 @@ const skillCategories = [
     name: "Embedded Systems",
     icon: <Cpu />,
     skills: [
-      { name: "Raspberry Pi", level: 85 },
+      { name: "TI SK-TDA4VM", level: 85 },
       { name: "STM32", level: 80 },
-      { name: "Embedded Board", level: 75 },
-      { name: "Jetson", level: 70 }
+      { name: "Embedded Boards", level: 75 },
+      { name: "Jetson Nano", level: 70 }
     ]
   },
   {
@@ -71,10 +73,13 @@ const skillCategories = [
     icon: <Globe />,
     skills: [
       { name: "CI/CD", level: 80 },
-      { name: "Computer Vision", level: 75 },
-      { name: "GNSS", level: 85 },
       { name: "Agile Development", level: 80 },
-      { name: "Shell Scripting", level: 70 }
+      { name: "Dynamic Programming", level: 80 },
+      { name: "Computer Vision", level: 70 },
+      { name: "GNSS", level: 85 },
+      { name: "Socket Programming", level: 85 },
+      { name: "Payment Card Processing", level: 75 },
+      { name: "Payment Systems", level: 70 }
     ]
   }
 ];
