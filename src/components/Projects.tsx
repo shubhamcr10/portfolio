@@ -12,7 +12,8 @@ const projects = [
     date: "May 2024 – Present",
     description: "Contributing to TSYS’s PRIME® platform, a scalable global payment processing solution. Implemented MoneySend for MasterCard and developed Manage Usage for UPI transactions on RuPay cards. Participated in architecture discussions and collaborated in agile teams to deliver secure, high-performance payment features.",
     skills: ["C++", "Pro*C", "SQL", "Shell Scripting", "Linux", "Payment Systems", "System Design", "Digital Payments", "MasterCard", "RuPay"],
-    image: "https://www.tsysprime.com/wp-content/uploads/2020/08/logo.svg"
+    github: "https://github.com/shubhamcr10/Combat-Display-System",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyVza2egjTPwj73EMgGTyVtmjHmeXlFB2OQ4cfqMCwhRJqmdt7R1hxAAanXhyPgbhbG4&usqp=CAU"
   },
   {
     id: 2,
@@ -42,22 +43,13 @@ const projects = [
   },
   {
     id: 5,
-    title: "Course Simulator",
-    date: "Jan 2024 - Jan 2024",
-    description: "The Course Simulator is an example program that publishes simulated data related to course, speed, and depth over Mikro MKT-DDS.",
+    title: "Course & Track Simulators",
+    date: "Jan 2024 – Jan 2024",
+    description: "Developed simulators for a naval-like combat display system using Micro XRCE-DDS. The Course Simulator published simulated course, speed, and depth data, while the Track Simulator emulated track behavior and integrated with the Combat Display System for real-time visualization.",
     skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
-    github: "https://github.com/shubhamcr10/Course-Simulator",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-  },
-  {
-    id: 6,
-    title: "Track Simulator",
-    date: "Jan 2024 - Jan 2024",
-    description: "The Track Simulator is a program designed to simulate the behavior of tracks in a naval-like combat display system. It works hand-in-hand with the Combat Display System application over Mikro MKT-DDS.",
-    skills: ["C++", "C (Programming Language)", "DDS", "QMake"],
-    github: "https://github.com/shubhamcr10/Track-Simulator",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-  },
+    github: "https://github.com/shubhamcr10",
+    image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+  }
 ];
 
 const ProjectCard = ({ project, isVisible }) => {
