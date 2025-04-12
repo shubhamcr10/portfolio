@@ -1,7 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";  // Import Link
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,13 +51,13 @@ const Header = () => {
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
+                to={item.href} // Use 'to' instead of 'href'
                 className="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
             <Button className="bg-blue-600 hover:bg-blue-700">Resume</Button>
           </nav>
@@ -79,14 +79,14 @@ const Header = () => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {menuItems.map((item) => (
-            <a
+            <Link
               key={item.name}
-              href={item.href}
+              to={item.href} // Use 'to' instead of 'href'
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
               onClick={toggleMenu}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
           <div className="px-3 py-2">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">Resume</Button>
