@@ -130,6 +130,11 @@ const ContactSection = () => {
           <div className="bg-white rounded-xl shadow-md border border-gray-100 p-6">
             <h3 className="text-xl font-bold text-gray-900 mb-6">Send me a message</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
+            <input
+              type="hidden"
+              name="time"
+              value={new Date().toLocaleString()}
+            />
               <div className="grid grid-cols-1 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-gray-700">
