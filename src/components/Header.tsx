@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";  // Import Link
+// import { Link } from "react-router-dom";  // Import Link
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +31,17 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleScrollToSection = (e: React.MouseEvent, href: string) => {
+    e.preventDefault();
+    const section = document.querySelector(href);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -51,13 +62,14 @@ const Header = () => {
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <Link
+              <a
                 key={item.name}
-                to={item.href} // Use 'to' instead of 'href'
+                href={item.href}
                 className="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300"
+                onClick={(e) => handleScrollToSection(e, item.href)}
               >
                 {item.name}
-              </Link>
+              </a>
             ))}
             <Button className="bg-blue-600 hover:bg-blue-700">Resume</Button>
           </nav>
@@ -79,14 +91,14 @@ const Header = () => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {menuItems.map((item) => (
-            <Link
+            <a
               key={item.name}
-              to={item.href} // Use 'to' instead of 'href'
+              href={item.href}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
-              onClick={toggleMenu}
+              onClick={(e) => handleScrollToSection(e, item.href)}
             >
               {item.name}
-            </Link>
+            </a>
           ))}
           <div className="px-3 py-2">
             <Button className="w-full bg-blue-600 hover:bg-blue-700">Resume</Button>
