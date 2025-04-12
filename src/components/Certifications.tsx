@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Award, Calendar, ExternalLink } from "lucide-react";
 
 const certifications = [
