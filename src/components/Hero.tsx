@@ -45,7 +45,7 @@ const Hero = () => {
           <div className={`w-full md:w-1/3 flex justify-center transition-all duration-700 delay-300 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-blue-600">
               <img 
-                src="/lovable-uploads/3725f448-8288-44bf-a3f2-a4d78e7f2d6f.png" 
+                src="/lovable-uploads/profile-pic.jpeg" 
                 alt="Shubham Singh" 
                 className="w-full h-full object-cover"
               />
