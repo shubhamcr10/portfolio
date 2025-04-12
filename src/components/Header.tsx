@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import resumePDF from "@/assets/resume.pdf";
+import resumePDF from "@/assets/Resume.pdf";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
