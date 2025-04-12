@@ -27,8 +27,8 @@ const ContactSection = () => {
 
     emailjs
       .sendForm(
-        "service_axgar97",         // Your EmailJS Service ID
-        "template_h9x0jlv",        // Replace with your actual Template ID
+        "service_fmdu8os",         // Your EmailJS Service ID
+        "template_eig0k4u",        // Replace with your actual Template ID
         e.target,
         "r3UddED_ZVzA1y82e"          // Replace with your EmailJS Public Key
       )
