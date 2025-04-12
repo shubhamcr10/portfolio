@@ -24,7 +24,7 @@ const Hero = () => {
               Shubham Singh
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-700">
-              Software Engineer specializing in <span className="text-blue-600">C++</span> and <span className="text-blue-600">Embedded Systems</span>
+              Software Engineer specializing in <span className="text-blue-600">C++</span> and <span className="text-blue-600">C Application Development</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl">
               I develop cutting-edge technology solutions for complex problems. Currently working at TSYS in Global Payments, focusing on secure payment processing solutions.
