@@ -31,16 +31,16 @@ const About = () => {
         >
           <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
             <p>
-              First and foremost, I love writing code. Ever since writing my first program in C++ and manipulating it to produce a desired output, I have been obsessed with the idea of using software to solve practical problems. Software engineering is a never-ending puzzle that I am passionately engaged in solving.
+              Hi, I’m Shubham — a software engineer who thrives on building robust, scalable, and impactful systems that power real-world functionality. From low-level optimization to full-scale architecture, I enjoy working at the intersection of performance, precision, and purpose.
             </p>
             <p>
-              Ever since I was a little kid, software engineering has been my passion. As I went through the BASIC tutorial, it was almost magic, being able to get the computer to do whatever I wanted, just by typing in, limited only by my own imagination and ingenuity. I learned C++, tearing through YouTube videos I could find on anything remotely related to Coding. I was insatiable.
+              With experience spanning fintech and embedded systems, I’ve contributed to everything from real-time payment infrastructure at TSYS (Global Payments) to precision positioning systems and automotive automation at Jangoo Technologies. My toolkit includes C++, Pro*C, SQL, and other tools that help me push the limits of software to solve complex problems efficiently.
             </p>
             <p>
-              This passion carried me through my education. Here there were more resources available to me than I ever could have imagined as a kid. I studied new languages, algorithms, compilers, all with pretty much the same fascination that drove me as a kid. And it was here that I learned truly how much there was yet to learn.
+              I have a strong grounding in system design, secure development practices, and agile collaboration — whether it’s deploying payment features for Mastercard and RuPay, or creating a dynamic profiling tool from scratch using Qt and C++. I’m also a curious learner, constantly evolving with industry shifts and exploring new tools that improve my craft.
             </p>
             <p>
-              So, now, in industry, this passion remains with me. There's certainly yet more to learn, yet more problems to solve, and yet more to build. And for this, I am very grateful.
+              When I’m not coding, I’m usually exploring tech communities, contributing to personal projects, or experimenting with new ideas I believe can make a difference.
             </p>
           </div>
         </div>
