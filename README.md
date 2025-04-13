@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+# 💼 Shubham Singh – Portfolio Website
 
-## Project info
+This is the source code for my personal portfolio website, built to showcase my experience, projects, and skills as a Software Engineer.
 
-**URL**: https://lovable.dev/projects/2f1d49d2-9687-4047-9d9a-6b7cdee0ce42
+🌐 **Live Site**: [https://shubhamcr10.github.io/portfolio/](https://shubhamcr10.github.io/portfolio/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack Used
 
-**Use Lovable**
+This website was developed using the following frontend technologies:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2f1d49d2-9687-4047-9d9a-6b7cdee0ce42) and start prompting.
+- **Vite** – Fast build tool and dev server
+- **React** – UI library for building components
+- **TypeScript** – Typed JavaScript for better developer experience
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **shadcn/ui** – Accessible UI components
+- **EmailJS** – Handles contact form submissions
 
-Changes made via Lovable will be committed automatically to this repo.
+> ⚙️ This tech stack is used specifically for the website.  
+> My professional software engineering experience lies in **C++, C, SQL, Pro\*C**, and backend development.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📬 Contact
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+You can connect with me or reach out here:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2f1d49d2-9687-4047-9d9a-6b7cdee0ce42) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- 📧 Email: [shubhamcr10@gmail.com](mailto:shubhamcr10@gmail.com)  
+- 🐙 GitHub: [@shubhamcr10](https://github.com/shubhamcr10)  
+- 🔗 LinkedIn: [Shubham Singh](https://linkedin.com/in/shubhamcr10)  
+- 🌐 Website: [shubhamcr10.github.io/portfolio](https://shubhamcr10.github.io/portfolio)
