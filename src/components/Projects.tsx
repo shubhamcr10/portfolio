@@ -7,7 +7,7 @@ import { Github, ExternalLink, Calendar } from "lucide-react";
 import CombatDisplayGif from "@/assets/Combat-Display-System.gif";
 import DynamicProfilingGif from "@/assets/Dynamic-Profiling.gif";
 import SimulatorsGif from "@/assets/Simulators.gif";
-import TrailerHitchAssistGif from "@/assets/Trailer-Hitch-Assist.gif";
+import TrailerHitchAssistGif from "@/assets/Trailer-Hitch-Assist-2.gif";
 
 const projects = [
   {
@@ -16,7 +16,7 @@ const projects = [
     date: "May 2024 – Present",
     description: "Contributing to TSYS’s PRIME® platform, a scalable global payment processing solution. Implemented MoneySend for MasterCard and developed Manage Usage for UPI transactions on RuPay cards. Participated in architecture discussions and collaborated in agile teams to deliver secure, high-performance payment features.",
     skills: ["C++", "Pro*C", "SQL", "Shell Scripting", "Linux", "Payment Systems", "System Design", "Digital Payments", "MasterCard", "RuPay"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyVza2egjTPwj73EMgGTyVtmjHmeXlFB2OQ4cfqMCwhRJqmdt7R1hxAAanXhyPgbhbG4&usqp=CAU"
+    image: "https://www.tsys.com/-/media/project/gpn/tsys/tsys/blog-insights/2023/casestudyeurobanksmodernizeplatforms_hero.jpg?rev=f37d4bc1ea1346fdb27f2e6cbe3d1390"
   },
   {
     id: 2,
