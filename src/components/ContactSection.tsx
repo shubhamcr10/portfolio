@@ -129,9 +129,11 @@ const ContactSection = () => {
 
           <div className="bg-white rounded-xl shadow-md border border-gray-100 p-6">
             <h3 className="text-xl font-bold text-gray-900 mb-6">Send me a message</h3>
+            
             <p className="text-sm text-gray-500 mb-6">
-  This form is for general inquiries only. Your details are not stored or shared, and are only used to send one message to my inbox via EmailJS.
-</p>
+    This form is for general inquiries only. Your details are not stored or shared, and are only used to send one message to my inbox via EmailJS.
+            </p>
+            
             <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="hidden"
